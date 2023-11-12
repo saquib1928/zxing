@@ -215,7 +215,12 @@
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.3.0</version>
         </plugin>
-        <plugin>
+       <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-assembly-plugin</artifactId>
+          <version>3.6.0</version>
+    </plugin>
+		<plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jarsigner-plugin</artifactId>
           <version>3.0.0</version>
