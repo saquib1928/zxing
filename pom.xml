@@ -749,7 +749,7 @@
     </profile>
     <profile>
       <id>zxingorg</id>
-      <activation>
+     <activation>
         <jdk>[17,)</jdk> <!-- Requires Java 17+ for Java EE 10+ -->
       </activation>
       <modules>
